@@ -1,0 +1,108 @@
+body{
+    margin: 0 auto;
+}
+
+header{
+    position: fixed;
+    text-align: center;
+    padding-bottom: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+.cadre{
+    margin: 2%;
+    border-left: 2px solid #50E8C6;
+    border-right: 2px solid #50E8C6;
+}
+
+.retour{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.retour:first-child{
+    display: none;
+}
+
+.retour:last-child{
+    display: none;
+}
+
+.infos{
+    top: -50px;
+    right: -50px;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: #50E8C6;
+    transform: rotate(45deg);
+}
+
+.fichiers{
+    padding-bottom: 33%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.carre{
+    margin: 1%;
+    width: 30%;
+    border-top: 1px solid #50E8C6;
+    border-bottom: 1px solid #50E8C6;
+}
+
+img{
+    margin-top: 3%;
+    width: 100%;
+    height: 66%;
+}
+
+.description{
+    opacity: 0;
+    position: absolute;
+    top: 3%;
+    width: 100%;
+    height: 33%;
+    overflow-x: hidden;
+}
+
+img:hover{
+    transition: all 0.5s;
+    opacity: 0.5;
+}
+
+img:hover + .description{
+    opacity: 1;
+}
+
+.titre{
+    height: 33%;
+}
+
+@media all and (max-width: 1170px){
+    .carre{
+        width: 45%;
+        margin: 2%;
+    }
+}
+
+@media all and (max-width: 700px){
+    header{
+        padding: 0;
+    }
+    
+    nav{
+        display: none;
+    }
+    
+    .retour{
+        margin: 0 auto;
+    }
+    
+    .carre{
+        width: 95%;
+    }
+}
