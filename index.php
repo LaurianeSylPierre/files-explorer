@@ -6,6 +6,7 @@
 		<title>Explorateur de fichier</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet"/>
 		<link href="css/styles.css" rel="stylesheet"/>
+		<script src="js/jquery-3.1.1.min.js"></script>
         
 	</head>
     
