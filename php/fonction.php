@@ -41,8 +41,8 @@ foreach($dirs as $dir){ ?>
 		<div class="col-xs-12 col-sm-6 col-md-4 carre">
 			<img src="images/03.jpg" alt="image de projet">
 			<div class="description">blablabla</div>
-			<div class="titre"><h2><p><?=$dir;?></br>
-			<a href="http://laurianep.marmier.codeur.online/<?=$_GET['dossier']?><?=current($download)?>" download filename="<?=$dir?>">Télécharger</a></p></div>
+			<div class="titre"><h2><?=$dir;?></h2>
+			<a href="http://laurianep.marmier.codeur.online/<?=$_GET['dossier']?><?=current($download)?>" download filename="<?=$dir?>">Télécharger</a></div>
 			<?php next($download); ?>
 		</div>
 	<?php } ?>
