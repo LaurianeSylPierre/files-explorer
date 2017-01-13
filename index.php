@@ -28,7 +28,7 @@
 			<main class="col-sm-9">
 				<div id="cadre" class="row cadre">
 					<?php
-					require('php/fonction.php');
+					require 'php/fonction.php';
 					?>
 				</div>
 			</main>

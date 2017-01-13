@@ -13,7 +13,7 @@ foreach($dirs as $dir){ ?>
 	<?php if (is_dir($base_url.$dir)){ ?>
 			<?php if ($dir == ".." || $dir == ".") { ?>
 				<div class="row retour">
-					<a href="index.php?dossier=<?=dirname($_GET['dossier'])?>/">Retour en arrière</a></br>
+					<a href="index.php?dossier=<?=dirname($_GET['dossier'])?>/" class="folder_name">Retour en arrière</a></br>
 					<?php next($download); ?>
 				</div>
 			<?php } else { ?>
