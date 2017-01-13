@@ -98,6 +98,11 @@ img:hover + .description{
         display: none;
     }
     
+    .cadre{
+        width: 100%;
+        border: none;
+    }
+    
     .retour{
         margin: 0 auto;
     }
@@ -105,4 +110,9 @@ img:hover + .description{
     .carre{
         width: 95%;
     }
+    
+    /*.carre:nth-child(even){
+        position : relative;
+        right: -15%;
+    }*/
 }
