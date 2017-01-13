@@ -31,10 +31,16 @@
 					require('php/fonction.php');
 					?>
 				</div>
-				
-				<!--zigouigoui en haut à droite qui doit s'étendre-->
-				<div class="infos"></div>
 			</main>
+			<!--zigouigoui en haut à droite qui doit s'étendre-->
+				<div class="infos">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae ligula sem. Sed quam magna, sollicitudin ac erat quis,
+					feugiat euismod mi. Suspendisse ac porttitor nisi. Sed aliquet consectetur massa bibendum dignissim. Pellentesque congue augue
+					ut ullamcorper congue. Aenean ac risus lacinia, ullamcorper felis nec, volutpat ligula. Curabitur risus mi, tempus sed sapien eu,
+					fermentum consectetur nunc. Donec at ex fringilla purus laoreet viverra in in ante. Morbi id efficitur ex. Suspendisse potenti.
+					Donec sed ultrices lectus, at suscipit augue. Nam porta libero nec porta pharetra. Etiam pharetra consectetur magna ut porttitor.
+					Praesent et cursus urna. Vivamus interdum auctor elit, sed blandit ligula. Nunc vitae orci sed metus aliquam sollicitudin.</p>
+				</div>
 		</div>
 		<div class="container">
 			<footer>
@@ -46,7 +52,7 @@
 	<script>
 		console.log("pouet");
 		$(document).ready(function() {
-		    $(".folder_name").on("click", function(e){
+		    $(document).on("click", ".folder_name", function(e){
 				e.preventDefault();
 				var $a = $(this);
 				var adresse = $a.attr("href");

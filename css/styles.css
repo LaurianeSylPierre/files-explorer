@@ -41,6 +41,25 @@ li{
     transform: rotate(45deg);
 }
 
+.infos p{
+    display : none;
+}
+
+.infos:hover{
+    top: auto;
+    right: auto;
+    width: 100%;
+    height: 100%;
+    transform: none;
+}
+
+.infos:hover p{
+    display: block;
+    margin : 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
 .fichiers{
     padding-bottom: 33%;
     display: flex;
